@@ -1,0 +1,29 @@
+{
+  "name": "image-gallery",
+  "description": "Code-challenge to create an interactive image gallery, using native Javascript",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevehollaar/image-gallery.git"
+  },
+  "author": "Steve Hollaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevehollaar/image-gallery/issues"
+  },
+  "homepage": "https://github.com/stevehollaar/image-gallery#readme",
+  "dependencies": {
+    "babel-polyfill": "6.9.1",
+    "ejs": "2.5.1",
+    "express": "4.14.0",
+    "whatwg-fetch": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.11.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
+    "webpack": "1.13.1"
+  }
+}

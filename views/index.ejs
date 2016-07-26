@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Steve Hollaar - Image Gallery
+    </title>
+    <link rel="stylesheet" type="text/css" href="/public/main.css">
+  </head>
+  <body>
+    <div id="inputs">
+      <label for="subreddit">
+        SubReddit
+      </label>
+      <input id="subreddit" type="text" name="subreddit" value="cats" />
+
+      <button class="pagination prev" disabled>◀</button>
+      <label id="page">Page 1</label>
+      <button class="pagination next">▶</button>
+    </div>
+    <div id="lightbox">
+      <div id="lightbox-content"></div>
+      <div id="lightbox-close">
+        <div>✕</div>
+      </div>
+      <div id="lightbox-title-container">
+        <span id="lightbox-title"></span>
+      </div>
+      <div class="lightbox-button prev">◀</div>
+      <div class="lightbox-button next">▶</div>
+    </div>
+    <div id="thumbnails"></div>
+    </div>
+    <script src="/public/main.js" charset="utf-8"></script>
+  </body>
+</html>
